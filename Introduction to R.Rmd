@@ -1,7 +1,7 @@
 ---
 title: "Introduction to R Programming"
-author: "Sana Rasheed"
-date: "May 14, 2020"
+author: "Abubakar saddiq"
+date: "oct 18 2021"
 output: html_document
 ---
 
@@ -28,22 +28,26 @@ output: html_document
 
 
 ```{r }
-
+name<-c("A","b","u","b","a","k","a","r")
+name
 ```
 
 
 ```{r }
-
+concate = paste(name,sep="", collapse="")
+concate
 ```
 
 
 ```{r }
-
+var<-(100:120)
+var
 ```
 
 
 ```{r }
-
+even_num = matrix(seq(0,16,2),ncol=3,byrow=TRUE)
+even_num
 ```
 
 
