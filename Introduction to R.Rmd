@@ -68,17 +68,18 @@ even_num
 
 
 ```{r }
-
+var<-factor(c("Employed","unemployed","self-employed","Employed","unemployed","self-employed","Employed","unemployed","self-employed"))
+var
 ```
 
 
 ```{r }
-
+table(var)
 ```
 
 
 ```{r }
-
+unclass(var)
 ```
 
 
@@ -105,17 +106,18 @@ even_num
 
 
 ```{r }
-
+df<-data.frame(CustomerID=c("Alicia","Nancy","Fernando","Louis","Dane") , hasAccount =c(F,T,T,T,NA), totalBalance =c( NA,10000,100,2000,NA))
+df
 ```
 
 
 ```{r }
-
+nrow(df)
 ```
 
 
 ```{r }
-
+ncol(df)
 ```
 
 
